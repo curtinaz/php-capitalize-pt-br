@@ -1,2 +1,2 @@
 # php-capitalize-pt-br
- chega
+ Chega. Chegou a hora de eu fazer minha primeira contribuição para a comunidade do PHP.
