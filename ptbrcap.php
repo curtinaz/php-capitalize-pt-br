@@ -18,3 +18,18 @@ $lowercases = [
     'por',
     'sem'
 ];
+
+$uppercases = [
+
+        'cnpj',
+        'cpf',
+        'ltda',
+        'qp',
+        'tv',
+        'mei', 
+        'me', 
+        'ei',
+        'epp',
+        'eireli', 
+        'sa'
+]
