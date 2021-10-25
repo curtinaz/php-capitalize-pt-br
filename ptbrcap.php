@@ -20,16 +20,15 @@ $lowercases = [
 ];
 
 $uppercases = [
-
-        'cnpj',
-        'cpf',
-        'ltda',
-        'qp',
-        'tv',
-        'mei', 
-        'me', 
-        'ei',
-        'epp',
-        'eireli', 
-        'sa'
+    'cnpj',
+    'cpf',
+    'ltda',
+    'qp',
+    'tv',
+    'mei',
+    'me',
+    'ei',
+    'epp',
+    'eireli',
+    'sa'
 ];
