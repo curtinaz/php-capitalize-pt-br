@@ -32,3 +32,7 @@ $uppercases = [
     'eireli',
     'sa'
 ];
+
+function ptbrcap(word) {
+    return word;
+}
