@@ -32,4 +32,4 @@ $uppercases = [
         'epp',
         'eireli', 
         'sa'
-]
+];
