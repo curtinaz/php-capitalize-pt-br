@@ -34,6 +34,6 @@ $uppercases = [
 ];
 
 function ptbrcap ($phrase) {
-
+    $eachWord = explode(' ', $phrase);
     return $phrase;
 }
