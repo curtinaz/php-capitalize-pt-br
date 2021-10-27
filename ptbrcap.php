@@ -33,6 +33,7 @@ $uppercases = [
     'sa'
 ];
 
-function ptbrcap ($word) {
-    return $word;
+function ptbrcap ($phrase) {
+
+    return $phrase;
 }
