@@ -36,7 +36,9 @@ $uppercases = [
 function ptbrcap ($phrase) {
     $eachWord = explode(' ', $phrase);
     for ($i = 0; $i < count($eachWord); $i++) {
-//
+        for ($j = 0; $j <= count($lowercases); $j++) {
+            //
+        }
     }
     return $phrase;
 }
