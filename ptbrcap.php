@@ -42,8 +42,10 @@ function ptbrcap ($phrase) {
                 $eachWord[$i] = strtolower($eachWord[$i]);
             }
         }
-        for ($j = 0; $j <= count($lowercases); $j++) {
-            
+        for ($j = 0; $j <= count($uppercases); $j++) {
+            if ($eachWord[$i] == $uppercases[$j]) {
+                $eachWord[$i] = strtolower($eachWord[$i]);
+            }
         }
     }
     return $phrase;
