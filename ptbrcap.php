@@ -42,9 +42,9 @@ function ptbrcap ($phrase) {
                 $eachWord[$i] = strtolower($eachWord[$i]);
             }
         }
-        for ($j = 0; $j <= count($uppercases); $j++) {
+        for ($j = 0; $j <= count($uppercases); $j++) { // verifica se a palavra deveria ser uppercase.
             if ($eachWord[$i] == $uppercases[$j]) {
-                $eachWord[$i] = strtolower($eachWord[$i]);
+                $eachWord[$i] = strtoupper($eachWord[$i]);
             }
         }
     }
