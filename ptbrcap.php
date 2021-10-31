@@ -53,7 +53,15 @@ function ptbrcap ($phrase) {
                     continue;
                 }
             }
-        }  
+        }
+        if($foundMatch[$i] == 0) {
+            $eachWord[$i] = ucfirst($eachWord[$i]);
+        }
+        if ($i == 0) {
+            $phrase = $eachWord[$i];
+        } else {
+            $phrase = $phrase . ' ' . $eachWord[$i];
+        }
     }
     return $phrase;
 }
