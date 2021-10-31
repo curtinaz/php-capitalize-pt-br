@@ -40,17 +40,14 @@ function ptbrcap ($phrase) {
         for ($j = 0; $j <= count($lowercases); $j++) { // verifica se a palavra deveria ser lowercase.
             if ($eachWord[$i] == $lowercases[$j]) {
                 $eachWord[$i] = strtolower($eachWord[$i]);
-                continue;
             }
-            for ($j = 0; $j <= count($uppercases); $j++) { // verifica se a palavra deveria ser uppercase.
-                if ($eachWord[$i] == $uppercases[$j]) {
-                    $eachWord[$i] = strtoupper($eachWord[$i]);
-                    continue;
-                }
+        }
+        for ($j = 0; $j <= count($uppercases); $j++) { // verifica se a palavra deveria ser uppercase.
+            if ($eachWord[$i] == $uppercases[$j]) {
+                $eachWord[$i] = strtoupper($eachWord[$i]);
             }
         }
         
-
     }
     return $phrase;
 }
