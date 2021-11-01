@@ -3,7 +3,7 @@
  Ela capitaliza uma frase para o padrão brasileiro de capitalização.
 
 # Como usar
- Primeiramente, deve-se fazer um ```require_once``` do arquivo ```'ptbrcap.php'```</br>
+ Primeiramente, deve-se fazer um ```php require_once``` do arquivo ```'ptbrcap.php'```</br>
  Para utilizar, basta passar a sua frase dentro da funcao ```ptbrcap()```
 
 # Exemplos
