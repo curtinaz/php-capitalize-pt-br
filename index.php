@@ -2,4 +2,6 @@
 
 require_once('./ptbrcap.php');
 
-echo 'MATERNIDADE BRASILEIRA LTDA<br>';
+$frase1 = 'MATERNIDADE BRASILEIRA LTDA<br>';
+
+echo $frase1 . '<br>' . ptbrcap($frase1);
