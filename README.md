@@ -7,7 +7,7 @@
  Para utilizar, basta passar a sua frase dentro da funcao ```ptbrcap()```
 
 # Exemplos
- ```
+```php
 $frase = 'ANDROVANDRO DAS DORES DA ROSA';
 echo ptbrcap($frase); 
 // Androvandro das Dores da Rosa
