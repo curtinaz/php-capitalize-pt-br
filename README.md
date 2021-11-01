@@ -11,7 +11,9 @@
 
 # exemplos
  $frase = 'ANDROVANDRO DAS DORES DA ROSA';
+<br/>
  echo ptbrcap($frase) // retorna: Androvandro das Dores da Rosa
-
+<br/>
  $frase = 'capixaba de floriculturismo ltda';
+<br/>
  echo ptbrcap($frase) // retorna: Capixaba de Floriculturismo LTDA
