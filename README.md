@@ -6,4 +6,5 @@
  Ela capitaliza uma frase no padrão brasileiro de capitalização.
 
 # usage
+ Primeiramente, deve-se fazer um require_once do arquivo 'ptbrcap.php';
  Para utilizar, basta passar a sua frase dentro da funcao ptbrcap();
