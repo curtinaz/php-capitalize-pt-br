@@ -9,8 +9,10 @@
 # Exemplos
  ```
 $frase = 'ANDROVANDRO DAS DORES DA ROSA';
-echo ptbrcap($frase) // retorna: Androvandro das Dores da Rosa
+echo ptbrcap($frase); 
+// Androvandro das Dores da Rosa
  
 $frase = 'capixaba de floriculturismo ltda';
-echo ptbrcap($frase) // retorna: Capixaba de Floriculturismo LTDA
+echo ptbrcap($frase); 
+// Capixaba de Floriculturismo LTDA
 ```
