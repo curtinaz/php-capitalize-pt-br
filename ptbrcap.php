@@ -35,10 +35,11 @@ function ptbrcap ($phrase) {
         'sa'
     ];
 
-    $eachWord = explode(' ', $phrase);
-    $foundMatch = [];
+    $eachWord = explode(' ', strtolower($phrase));
+    
     for ($i = 0; $i < count($eachWord); $i++) {
-        for ($j = 0; $j <= count($lowercases); $j++) { // verifica se a palavra deveria ser lowercase.
+        $foundMatch[$i] = 0;
+        for ($j = 0; $j < count($lowercases); $j++) { // verifica se a palavra deveria ser lowercase.
             if ($eachWord[$i] == $lowercases[$j]) {
                 $eachWord[$i] = strtolower($eachWord[$i]);
                 $foundMatch[$i] = 1;
@@ -46,7 +47,7 @@ function ptbrcap ($phrase) {
             }
         }
         if($foundMatch[$i] == 0) {
-            for ($j = 0; $j <= count($uppercases); $j++) { // verifica se a palavra deveria ser uppercase.
+            for ($j = 0; $j < count($uppercases); $j++) { // verifica se a palavra deveria ser uppercase.
                 if ($eachWord[$i] == $uppercases[$j]) {
                     $eachWord[$i] = strtoupper($eachWord[$i]);
                     $foundMatch[$i] = 1;
