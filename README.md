@@ -7,10 +7,10 @@
  Para utilizar, basta passar a sua frase dentro da funcao ptbrcap();
 
 # Exemplos
- ```$frase = 'ANDROVANDRO DAS DORES DA ROSA';
-<br/>
- echo ptbrcap($frase) // retorna: Androvandro das Dores da Rosa
-<br/><br/>
+ ```
+$frase = 'ANDROVANDRO DAS DORES DA ROSA';
+echo ptbrcap($frase) // retorna: Androvandro das Dores da Rosa
+ 
 $frase = 'capixaba de floriculturismo ltda';
-<br/>
- echo ptbrcap($frase) // retorna: Capixaba de Floriculturismo LTDA```
+echo ptbrcap($frase) // retorna: Capixaba de Floriculturismo LTDA
+```
