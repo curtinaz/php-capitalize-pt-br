@@ -1,4 +1,4 @@
-# php-capitalize-pt-br
+# php-capitalize-pt-br ![BUILD](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
  Chegou a hora de eu fazer minha primeira contribuição para a comunidade do PHP.
 
 # resumo    
