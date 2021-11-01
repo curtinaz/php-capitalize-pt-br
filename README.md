@@ -1,5 +1,5 @@
 # php-capitalize-pt-br
- Chega. Chegou a hora de eu fazer minha primeira contribuição para a comunidade do PHP.
+ Chegou a hora de eu fazer minha primeira contribuição para a comunidade do PHP.
 
 # resumo    
  Esta biblioteca basicamente está resumida em uma única função.
