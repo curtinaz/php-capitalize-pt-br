@@ -8,3 +8,10 @@
 # usage
  Primeiramente, deve-se fazer um require_once do arquivo 'ptbrcap.php';
  Para utilizar, basta passar a sua frase dentro da funcao ptbrcap();
+
+# exemplos
+ $frase = 'ANDROVANDRO DAS DORES DA ROSA';
+ echo ptbrcap($frase) // retorna: Androvandro das Dores da Rosa
+
+ $frase = 'capixaba de floriculturismo ltda';
+ echo ptbrcap($frase) // retorna: Capixaba de Floriculturismo LTDA
