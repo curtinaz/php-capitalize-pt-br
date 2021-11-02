@@ -51,7 +51,7 @@ function ptbrcap ($phrase) {
         if($foundMatch[$i] == 0) {
             for ($j = 0; $j < count($uppercases); $j++) { // verifica se a palavra deveria ser uppercase.
                 if ($eachWord[$i] == $uppercases[$j]) {
-                    $eachWord[$i] = strtoupper($eachWord[$i]);
+                    $eachWord[$i] = mb_strtoupper($eachWord[$i]);
                     $foundMatch[$i] = 1;
                     continue;
                 }
