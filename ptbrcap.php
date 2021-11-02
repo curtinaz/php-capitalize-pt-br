@@ -43,7 +43,7 @@ function ptbrcap ($phrase) {
         $foundMatch[$i] = 0;
         for ($j = 0; $j < count($lowercases); $j++) { // verifica se a palavra deveria ser lowercase.
             if ($eachWord[$i] == $lowercases[$j]) {
-                $eachWord[$i] = strtolower($eachWord[$i]);
+                $eachWord[$i] = mb_strtolower($eachWord[$i]);
                 $foundMatch[$i] = 1;
                 continue;
             }
