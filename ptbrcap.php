@@ -35,7 +35,9 @@ function ptbrcap ($phrase) {
         'sa'
     ];
 
-    $eachWord = explode(' ', strtolower($phrase));
+    mb_internal_encoding("UTF-8");
+
+    $eachWord = explode(' ', mb_strtolower($phrase));
     
     for ($i = 0; $i < count($eachWord); $i++) {
         $foundMatch[$i] = 0;
