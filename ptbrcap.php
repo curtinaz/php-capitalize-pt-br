@@ -66,7 +66,7 @@ function ptbrcap($phrase)
             }
         }
         if ($foundMatch[$i] == 0) {
-            $eachWord[$i] = ucfirst($eachWord[$i]);
+            $eachWord[$i] = mb_ucfirst($eachWord[$i]);
         }
         if ($i == 0) {
             $phrase = $eachWord[$i];
