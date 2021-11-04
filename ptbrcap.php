@@ -36,22 +36,15 @@ function ptbrcap($phrase)
         'sa'
     ];
 
-    // mb_internal_encoding("UTF-8");
+    mb_internal_encoding("UTF-8");
 
-    // function mb_ucfirst($string){
-    //     $encoding = 'UTF-8';
-    //     $firstChar = mb_substr($string, 0, 1, $encoding);
-    //     $then = mb_substr($string, 1, null, $encoding);
-    //     return mb_strtoupper($firstChar, $encoding) . $then;
-    // }
-
-    $eachWord = explode(' ', strtolower($phrase));
+    $eachWord = explode(' ', mb_strtolower($phrase));
 
     for ($i = 0; $i < count($eachWord); $i++) {
         $foundMatch[$i] = 0;
         for ($j = 0; $j < count($lowercases); $j++) { // verifica se a palavra deveria ser lowercase.
             if ($eachWord[$i] == $lowercases[$j]) {
-                $eachWord[$i] = strtolower($eachWord[$i]);
+                $eachWord[$i] = mb_strtolower($eachWord[$i]);
                 $foundMatch[$i] = 1;
                 continue;
             }
@@ -59,7 +52,7 @@ function ptbrcap($phrase)
         if ($foundMatch[$i] == 0) {
             for ($j = 0; $j < count($uppercases); $j++) { // verifica se a palavra deveria ser uppercase.
                 if ($eachWord[$i] == $uppercases[$j]) {
-                    $eachWord[$i] = strtoupper($eachWord[$i]);
+                    $eachWord[$i] = mb_strtoupper($eachWord[$i]);
                     $foundMatch[$i] = 1;
                     continue;
                 }
