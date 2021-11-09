@@ -1,6 +1,6 @@
 {
     "name": "curtinaz/ptbrcap",
-    "description": "A short description of what your package does",
+    "description": "Capitalize uma frase para o padrão brasileiro de capitalização.",
     "require": {
         "php": ">=7.4",
         "another-vendor/package": "1.*"
