@@ -2,7 +2,6 @@
     "name": "curtinaz/ptbrcap",
     "description": "Capitalize uma frase para o padrão brasileiro de capitalização.",
     "require": {
-        "php": ">=7.4",
-        "another-vendor/package": "1.*"
+        "php": ">=7.0"
     }
 }
